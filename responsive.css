@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 900px) {
+	
+	.footercontent{
+		height: 300px;
+		display: flex;
+		text-align: left;  
+		background-color: rgb(226, 225, 225); 
+	}
+	
+	.footercontent .box{
+	flex: 1;
+	padding: 1rem;
+	padding-top: 4rem;
+	}
+
+	.services{
+		display: flex;
+		position: relative;
+		top: -50px;}
+
+		.fruitcont ul{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.fruitcont li{
+			flex-basis: 24%;
+			list-style: none;
+		}
+
+		header{
+			position: fixed;
+			min-width: 100%;
+			z-index: 3;
+		}
+
+}
